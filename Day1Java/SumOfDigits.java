@@ -1,17 +1,19 @@
+package Day1Java;
+
 import java.util.Scanner;
+
 public class SumOfDigits {
-public static void main(String args[])
-{
-int sum=0;
-Scanner obj=new Scanner(System.in);
-int n=obj.nextInt();
+    public static void main(String args[]) {
+        int sum = 0;
+        Scanner obj = new Scanner(System.in);
+        int n = obj.nextInt();
 
-while(n!=0){
-int x=n%10;
-sum+=x;
-n=n/10;
+        while (n != 0) {
+            int x = n % 10;
+            sum += x;
+            n = n / 10;
 
-}
-System.out.println(sum);
-}
+        }
+        System.out.println(sum);
+    }
 }

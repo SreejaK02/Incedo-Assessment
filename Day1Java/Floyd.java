@@ -1,4 +1,4 @@
-package src;
+package Day1Java;
 import java.util.*;
 public class Floyd {
 	public static void main(String args[]) {

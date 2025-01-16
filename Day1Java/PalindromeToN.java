@@ -1,4 +1,4 @@
-package src;
+package Day1Java;
 import java.util.Scanner;
 
 public class PalindromeToN {
