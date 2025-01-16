@@ -1,9 +1,6 @@
-package src;
-
-
-	import java.util.Scanner;
-	import java.lang.Math;
-	public class ArmstrongToN {
+package Day1Java;
+import java.util.Scanner;
+public class ArmstrongToN {
 	public static boolean IsArmstrong(int n)
 	{
 	int sum=0;
